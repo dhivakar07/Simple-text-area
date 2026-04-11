@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Textarea</title>
+  </head>
+  <body>
+    <section class="textarea-container">
+      <div class="textarea-card">
+        <h1>Message</h1>
+        <p>Maximum 200 characters allowed</p>
+        <textarea
+          name="textarea"
+          class="textarea-box"
+          maxlength="200"
+          id="message"
+          placeholder="Write your message here.."
+        ></textarea>
+      </div>
+      <div class="info">
+        <p class="counter">0 / 200 characters</p>
+        <p class="remaining">200 remaining</p>
+      </div>
+      <div class="warning-container"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
