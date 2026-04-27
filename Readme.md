@@ -13,3 +13,5 @@ A lightweight web app that demonstrates a **character counter** for a textarea i
 - **Accessible feedback**: Clear text indicators for usability.
 
 ---
+💻 Source Code:
+https://github.com/dhivakar07/Simple-text-area
